@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2efde;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top {
+  height: 50vh;
+  /* border: solid 1px black; */
+  background: url("https://c4.wallpaperflare.com/wallpaper/460/246/330/glass-milk-bread-bagels-wallpaper-preview.jpg");
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  width: 95vw;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.top h1 {
+  font-size: xx-large;
+  margin-top: 120px;
+}
+
+.top p {
+  font-size: larger;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 35vh;
+  /* border: solid 1px black; */
+  width: 80vw;
+  border-radius: 3px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.left {
+  width: 50vw;
+  padding: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.right {
+  width: 50vw;
+  overflow: hidden;
+  margin: 20px;
+  background: url("https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2020-08-how-to-make-bagels%2F2020_howto_bagels_shot14_197");
+  background-size: cover;
+}
+
+nav {
+  /* border: black solid 1px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgba(128, 143, 135, 0.5);
+  height: max-content;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  background-color: rgba(80, 62, 12, 0.4);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.logo {
+  background: url("https://t4.ftcdn.net/jpg/04/74/07/77/360_F_474077726_W1i7oW7FnLnnCXqUR4m7oUWTnl7WUoqs.jpg");
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  position: relative;
+  right: 200px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
